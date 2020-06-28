@@ -12,6 +12,8 @@ use stm32h7::Variant::Val;
 
 mod pdm;
 pub use pdm::SaiPdmExt;
+mod i2s;
+pub use i2s::SaiI2sExt;
 
 /// Trait for associating clocks with SAI instances
 pub trait GetClkSAI {
