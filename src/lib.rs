@@ -112,6 +112,8 @@ pub mod adc;
 #[cfg(feature = "device-selected")]
 pub mod dac;
 #[cfg(feature = "device-selected")]
+pub mod dma;
+#[cfg(feature = "device-selected")]
 pub mod delay;
 #[cfg(feature = "device-selected")]
 pub mod exti;
